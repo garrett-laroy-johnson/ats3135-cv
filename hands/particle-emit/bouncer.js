@@ -13,10 +13,10 @@ class Bouncer {
     
     attractor(mouse){
       this.acc= p5.Vector.sub(mouse,this.pos);
-      this.acc.setMag(0.2);
+      this.acc.setMag(.5);
       
       this.vel.add(this.acc); 
-      this.vel.limit(2);   
+      this.vel.limit(1);   
       this.pos.add(this.vel);
     }
     

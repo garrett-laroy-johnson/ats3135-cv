@@ -7,7 +7,7 @@ const hands = new Hands({
 });
 hands.setOptions({
   maxNumHands: 2,
-  modelComplexity: 1,
+  modelComplexity: 0.5,
   minDetectionConfidence: 0.5,
   minTrackingConfidence: 0.5
 });
